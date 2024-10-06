@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="styles.css">
+<style>
+    body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+  font-size:3rem;
+  marign: 1.2rem auto;
+  text-align:center;
+  font-weight:bold;
+  color:red;
+  text-shadow: 1px 1px 1.2px #010101;
+}
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1rem;
+    padding: 0 2rem;
+}
+
+.item img {
+    background-color: #ccc;
+    height: 300px;
+    aspect-ratio: 1;
+    display: flex;
+    object-fit: cover;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    border-radius: 10px;
+}
+
+</style>
+</head>
+
+<body>
+  <h1>Image Gallery</h1>
+    <div class="gallery">
+        <div class="item"><img src="./images/img1.jpg" alt="butterfly"></div>
+        <div class="item"><img src="./images/img2.jpg" alt="image of temple"></div>
+        <div class="item"><img src="./images/img3.jpg" alt="image of water drop"></div>
+        <div class="item"><img src="./images/img4.jpg" alt="image of cake with stawberry"></div>
+        <div class="item"><img src="./images/img5.jpg" alt="image of cat"></div>
+        <div class="item"><img src="./images/img6.jpg" alt="image of cat"></div>
+        <div class="item"><img src="./images/m1.jpg" alt="image of cat"></div>
+        <div class="item"><img src="./images/zeb.jpg" alt="image of cat"></div>
+        <div class="item"><img src="./images/elp.jpg" alt="image of cat"></div>
+        <div class="item"><img src="./images/fox.jpg" alt="image of cat"></div>
+        <div class="item"><img src="./images/image (1).jpg" alt="image of cat"></div>
+        <div class="item"><img src="./images/image (2).jpg" alt="image of cat"></div>
+        <div class="item"><img src="./images/image (3).jpg" alt="image of cat"></div>
+        <div class="item"><img src="./images/image (4).jpg" alt="image of cat"></div>
+        <div class="item"><img src="./images/image (5).jpg" alt="image of cat"></div>
+    </div>
+</body>
+</html>
